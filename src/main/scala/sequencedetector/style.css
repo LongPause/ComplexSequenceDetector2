@@ -1,0 +1,55 @@
+node {
+		fill-color	: 	orange;
+		size		:	30px;
+	} 
+	
+node.START{
+		shape: circle;
+		fill-color	: 	green; 
+		size		:	45px;
+	}
+	
+node.END{
+		shape: circle;
+		fill-color	: 	red; 
+		size		:	45px;
+	}	
+edge{
+		shape		: 	line;
+		fill-color 	:	black;
+		arrow-size	:	12px, 8px;
+		text-background-mode : rounded-box;
+		text-background-color : orange;
+}
+
+edge.ONE{
+		shape		: 	line;
+		fill-color 	:	blue;
+		size: 2px;
+		arrow-size	:	12px, 8px;
+		text-background-mode : rounded-box;
+		text-background-color : orange;
+}	
+
+edge.ZERO{
+		shape		: 	line;
+		fill-color 	:	red;
+		stroke-mode : dashes;
+		size: 2px;
+		arrow-size	:	12px, 8px;
+		text-background-mode : rounded-box;
+		text-background-color : orange;
+}	
+
+node:clicked{
+		fill-color	: 	yellow; 
+		size		:	35px;
+	}
+	
+node:selected{
+		fill-color	: 	green; 
+		size		:	35px;
+		stroke-mode	: 	plain;
+		stroke-width	: 5;
+		stroke-color:	blue;
+	}	
